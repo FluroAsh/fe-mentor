@@ -1,0 +1,18 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: black;
+  min-width: 100vw;
+  min-height: 100vh;
+  background: hsl(212, 45%, 89%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
