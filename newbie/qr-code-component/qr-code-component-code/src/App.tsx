@@ -7,9 +7,7 @@ function App() {
   return (
     <div className="App">
       <Card
-        topImage={
-          <TopImage src="src/static/images/image-qr-code.png" alt="QR Code" />
-        }
+        topImage={<TopImage src="/assets/image-qr-code.png" alt="QR Code" />}
       />
     </div>
   )
